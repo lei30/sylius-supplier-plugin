@@ -4,9 +4,13 @@
     </a>
 </p>
 
-<h1 align="center">Plugin Skeleton</h1>
+<h1 align="center">Sylius Demo Supplier Plugin</h1>
 
-<p align="center">Skeleton for starting Sylius plugins.</p>
+<p align="center">
+    <a target="_blank" rel="noopener noreferrer" href="screenshot.png">
+        <img src="screenshot.png" alt="Screenshot" style="max-width:100%;">
+    </a>
+</p>
 
 ## Installation
 
