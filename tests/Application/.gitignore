@@ -1,0 +1,12 @@
+/node_modules/
+
+/var/*
+!/var/.gitignore
+
+/web/*
+!/web/assets/.gitignore
+!/web/bundles/.gitignore
+!/web/media/image/.gitignore
+!/web/app.php
+!/web/app_dev.php
+!/web/app_test.php
