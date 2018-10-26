@@ -1,0 +1,15 @@
+sylius_supplier_plugin:
+    menu:
+        admin:
+            extra:
+                main: App Extensions
+                supplier: Supplier
+    ui:
+        suppliers: Suppliers
+        supplier: Supplier
+        new_supplier: new Supplier
+        edit_supplier: edit Supplier
+
+Name: Name
+Description: Description
+Enabled: Enabled

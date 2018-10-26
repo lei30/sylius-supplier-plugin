@@ -1,0 +1,17 @@
+Lei\SyliusSupplierPlugin\Entity\Supplier:
+    type: entity
+    table: sylius_supplier_plugin_supplier
+    repositoryClass: Sylius\Bundle\ResourceBundle\Doctrine\ORM\EntityRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+        description:
+            type: string
+        enabled:
+            type: boolean

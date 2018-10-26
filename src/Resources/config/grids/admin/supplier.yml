@@ -1,0 +1,28 @@
+sylius_grid:
+    grids:
+        sylius_supplier_plugin_admin_supplier:
+            driver:
+                name: doctrine/orm
+                options:
+                    class: Lei\SyliusSupplierPlugin\Entity\Supplier
+            fields:
+                name:
+                    type: string
+                    label: sylius.ui.name
+                description:
+                    type: string
+                    label: sylius.ui.description
+                enabled:
+                    type: twig
+                    label: sylius.ui.enabled
+                    options:
+                        template: "@SyliusUi/Grid/Field/enabled.html.twig"
+            actions:
+                main:
+                    create:
+                        type: create
+                item:
+                    update:
+                        type: update
+                    delete:
+                        type: delete

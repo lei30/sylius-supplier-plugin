@@ -1,0 +1,5 @@
+services:
+    sylius_supplier_plugin.listener.admin.menu_builder:
+        class: Lei\SyliusSupplierPlugin\Menu\AdminMenuListener
+        tags:
+            - { name: kernel.event_listener, event: sylius.menu.admin.main, method: addAdminMenuItems }

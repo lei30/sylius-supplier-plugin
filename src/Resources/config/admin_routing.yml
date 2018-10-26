@@ -1,1 +1,4 @@
 # Define your own admin routes here
+sylius_supplier_plugin_admin:
+    resource: 'routing/admin.yml'
+    prefix: /admin
