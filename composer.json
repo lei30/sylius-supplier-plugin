@@ -1,5 +1,5 @@
 {
-    "name": "e3-lei/sylius-demo-supplier-plugin",
+    "name": "e3-lei/sylius-supplier-plugin",
     "type": "sylius-plugin",
     "description": "Demo Supplier plugin for Sylius.",
     "license": "MIT",

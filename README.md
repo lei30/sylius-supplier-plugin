@@ -16,7 +16,7 @@ Demo by [Sylius PluginSkeleton v1.3.0](https://github.com/Sylius/PluginSkeleton)
 
 ### Install
 
-* require package `$ composer require e3-lei/sylius-demo-supplier-plugin`
+* require package `$ composer require e3-lei/sylius-supplier-plugin`
 * add Plugin in the `app/AppKernel.php` with `new Lei\SyliusSupplierPlugin\SyliusSupplierPlugin(),`
 * add configs
 
